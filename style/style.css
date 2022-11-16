@@ -20,6 +20,7 @@ body{
     /*background-color: yellow;*/
     display: flex;
     box-shadow: 6px 6px 50px black;
+    min-width: 750px;
 }
 .formulaire{
     background-color: #7f279c;
@@ -27,8 +28,15 @@ body{
     text-align: left;
     display: flex;
     flex-direction: column;
+    flex: 1;
     
 }
+@media all and (max-width:749px){
+    .formulaire{
+        padding: 48px 25px; 
+    }
+}
+
 .formulaire h3{
     font-size: 1.75rem;
     font-weight: 400;
@@ -87,6 +95,17 @@ input[type="submit"]:hover{
 .information{
     /*background-color: green;*/
     padding: 48px 48px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+@media all and (max-width:749px){
+
+    .information{
+        /*background-color: green;*/
+        padding: 48px 25px;
+    }
 }
 .information h3{
     font-size: 28px;

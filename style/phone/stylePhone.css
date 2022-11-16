@@ -1,0 +1,7 @@
+.main{
+    /*background-color: yellow;*/
+    display: flex;
+    flex-direction: column;
+    box-shadow: 6px 6px 50px black;
+    min-width: 350px;
+}
